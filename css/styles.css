@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+   font-family: 'Open Sans',serif;
+}
+
+html, body {
+  height:100%;
+}
+
+#top{
+  text-align: center; 
+  color:white;
+  background-image: url("../../delanistudio/img/backgrounds/h_img.jpg");
+  background-size: cover;
+  }
+h1{
+  text-align: center;
+}
