@@ -63,11 +63,6 @@ html, body {
       font-size: 20px;
     }
 
-    ::placeholder{
-      color: white;
-      opacity: 1;
-    }
-
     .contborders{
       padding: 12px;
       margin-left:20%;
@@ -86,8 +81,20 @@ html, body {
       font-size: 20px;
     } */
 
+    .form-control::-webkit-input-placeholder { 
+      color: white; 
+    }
+
     footer{
       text-align: center;
       padding-top: 30px;
       font-family:  'Open Sans', serif;
+    }
+
+    .whatwedo{
+      text-align: center;
+    }
+
+    #design, #development, #productmanagement{
+      display: none;
     }
