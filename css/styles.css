@@ -41,3 +41,32 @@ html, body {
   margin-top: 10px; 
   margin-bottom: 10px;
   }
+
+  .contact{
+    text-align: center; 
+    color:white;
+    background-image: url("../../delanistudio/img/backgrounds/c_image.jpg");
+    background-size: cover;
+    font-size: 16px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    }
+
+    /* .mc-field-group{
+      background: transparent;
+      color:white;
+    } */
+
+    input[type=text],input[type=email]{
+      background: transparent;
+      color: white;
+      font-size: 20px;
+      font-family: 'Copse', serif;
+    }
+/* 
+    #message{
+      background: transparent;
+      color: white;
+      font-size: 20px;
+      font-family: 'Copse', serif;
+    } */
