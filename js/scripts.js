@@ -78,8 +78,19 @@ $(document).ready(function () {
     $("#giraffetext").hide();
   });
 
-
-
-
+   
+  $("form#subscription").submit(function(event){
+    
+    var name = $("input#mce-FNAME").val();
+    var email = $("input#mce-EMAIL").val();
+    var message = $("textarea#mce-MESSAGE").val();
+    if (name.length > 0 && email.length >0){
+      alert (name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!");
+  }
+    //event.preventDefault();
+  });
 
 });
