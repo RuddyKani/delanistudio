@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 
   $("div#productimage").click(function(){       
-    $("productimage").hide();
+    $("div#productimage").hide();
     $("div#productmanagement").show();
   });
   $("div#productmanagement").click(function(event){
