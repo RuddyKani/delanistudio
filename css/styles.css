@@ -17,10 +17,13 @@ html, body {
   text-align: center; 
   color:white;
   background-image: url("../../delanistudio/img/backgrounds/h_img.jpg");
-  background-size: cover;
+  background-size: cover;  
   }
-h1{
+.welcome h1{
   text-align: center;
+  font-weight: bold ;
+  padding: 3px;
+  margin: 5px;
 }
 #about{
   text-align: center;
@@ -28,3 +31,13 @@ h1{
   padding-top:40px;
   font-family: 'Open Sans', serif;
 }
+
+#services{
+  text-align: center; 
+  color:white;
+  background-image: url("../../delanistudio/img/backgrounds/s_image.jpg");
+  background-size: cover;
+  font-size: 16px; 
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  }
