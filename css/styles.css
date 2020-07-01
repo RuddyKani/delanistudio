@@ -52,11 +52,7 @@ html, body {
     margin-bottom: 10px;
     }
 
-    /* .mc-field-group{
-      background: transparent;
-      color:white;
-    } */
-
+    
     input[type=text],input[type=email]{
       background: transparent;
       color: white;
@@ -74,12 +70,6 @@ html, body {
       margin-left:20%;
       width:60%;
     }
-/* 
-    #message{
-      background: transparent;
-      color: white;
-      font-size: 20px;
-    } */
 
     .form-control::-webkit-input-placeholder { 
       color: white; 
